@@ -1,4 +1,6 @@
-# Send email Nylas sample app - Frontend
+# Frontend for AI Booking Agent.
+
+See it live here: https://aibookingagent.vercel.app
 
 An implementation with React.
 
