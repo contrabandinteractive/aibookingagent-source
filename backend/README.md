@@ -1,4 +1,6 @@
-# Send email Nylas sample app
+# Backend for AI Booking Agent.
+
+See it live here: https://aibookingagent.vercel.app
 
 An implementation with Node Express.
 
