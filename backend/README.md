@@ -17,12 +17,14 @@ Go to the Nylas Dashboard, and choose the Quickstart Application.
 
 Click **App Settings** to see the `client_id` and `client_secret` for the Quickstart app.
 
-Add these to a `.env` in this directory as in the example below.
+Add these to a `.env` in this directory as in the example below. YOU MUST USE AN OPENAI API KEY!!!
 
 ```yaml
 # Nylas application keys - see https://developer.nylas.com/docs/developer-guide/authentication/authorizing-api-requests/#sdk-authentication
-CLIENT_ID=client_id...
-CLIENT_SECRET=client_secret...
+NYLAS_CLIENT_ID=XXX
+NYLAS_CLIENT_SECRET=XXX
+NYLAS_API_SERVER=https://api.nylas.com
+OPENAI_KEY=XXX
 ```
 
 ### Install Node dependencies
